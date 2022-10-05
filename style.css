@@ -11,8 +11,27 @@ body {
   font-size: 18px;
   color: #111111;
   background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
 }
 
-img {
-  max-width: 100%;
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 960px;
+  width: 960px;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.cell {
+  border: 1px solid #dddddd;
+  flex: 1;
 }
